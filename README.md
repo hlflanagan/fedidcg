@@ -1,6 +1,3 @@
-# cg-charter
-[Charter template for W3C Community and Business Groups](http://w3c.github.io/cg-charter/CGCharter.html) 
+This is a temporary workspace to facilitate work on a draft charter for the Federated Identity Community Group proposed during the Federation and Browsers Workshop 25-26 May 2021. 
 
-To create a markdown version, please use a markdown-translator (available on the Web).
-
-Questions? Please contact team-community-process@w3.org.
+See the [WebID GitHub Repository](https://github.com/WICG/WebID/tree/main/meetings/2021) for meeting notes from that workshop; the proposed CG was discussed on Day Two. 
