@@ -19,7 +19,7 @@ The purpose of the Federated Identity Community Group is to provide a forum focu
 Scope of Work
 -------------
 
-Federated login and tracking tools use the same primitives and are indistinguishable from non-transparent, uncontrollable tracking from the browser’s perspective. Current proposed mitigations for tracking will impact federated identity. This group will discuss potential architectures, APIs, and possible changes that could be proposed to external protocols such as OAuth2.0, OIDC, and SAML. 
+Federated login and tracking tools use the same primitives and are indistinguishable from non-transparent, uncontrollable tracking from the browser’s perspective. Current proposed mitigations for tracking will impact federated identity. This group will discuss potential architectures, APIs, and possible changes that could be proposed to external protocols such as OAuth 2.0, OpenID Connect, and SAML. 
 
 {TBD: Describe topics that are in scope. For specifications that the CLA
 patent section applies to, it is helpful to describe the scope in a way
@@ -57,7 +57,7 @@ Champions are responsible for the technical content of their Proposal. They are 
 
 Champions may ask the Chairs to create a dedicated repository for their Proposal. The Chairs will generally honor such requests, though they may choose not to (if, for example, they believe the Proposal to be out of scope).
 
-Proposals begin as or evolve into explainers which describe a user-facing problem which needs to be solved and how the authors propose to solve it. Explainers are Community Group Reports as defined in the Community and Business Group Process, but they are not Specifications as defined in that document.
+Proposals begin as or evolve into explainers that describe a user-facing problem that needs to be solved and how the authors propose to solve it. Explainers are Community Group Reports as defined in the Community and Business Group Process, but they are not Specifications as defined in that document.
 
 Proposals may be withdrawn by their Champions, or may be closed by the Chairs (if, for example, the Chairs deem the Proposal to be out of scope, or if its number of Champions drops to zero). If such a Proposal has a dedicated repository, the Chairs and Champions should take steps to ensure the data is not lost, perhaps by archiving the repository or by transferring it to a different organization or user. 
 
