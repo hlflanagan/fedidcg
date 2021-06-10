@@ -7,94 +7,93 @@ please use [the GitHub Repository](https://github.com/hlflanagan/fedidcg) issues
 
 -   This Charter: <span class="remove">{TBD: URI}</span>
 -   Previous Charter: n/a
--   Start Date: June 2021 (est.)
+-   Start Date: July 2021 (est.)
 
 
 Goals
 -----
 
-The purpose of the Federated Identity Community Group is to provide a forum focused on incubating web features that will both support federated identity and prevent untransparent, uncontrollable tracking of users across the web.
+The purpose of the Federated Identity Community Group is to provide a forum focused on incubating web features that will both support federated identity and prevent untransparent, uncontrollable tracking of users across the web. While the community group will take privacy concerns into consideration, these concerns will be balanced against the need to explore innovative ideas around federated authentication on the web. 
+
+The group has both short- and long-term goals; the initial work focuses on the short-term goals as prioritized by the urgency of changes already underway, such as the phasing out of third-party cookies.  This charter will be reviewed no later than one year from approval to potentially reset the goals and priorities.
 
 
 Scope of Work
 -------------
 
-Federated login and tracking tools use the same primitives and are indistinguishable from non-transparent, uncontrollable tracking from the browser’s perspective. Current proposed mitigations for tracking will impact federated identity. This group will discuss potential architectures, APIs, and possible changes that could be proposed to external protocols such as OAuth 2.0, OpenID Connect, and SAML. 
+Federated authentication--the outsourcing authentication to another origin--and tracking tools use the same primitives and are indistinguishable from non-transparent, uncontrollable tracking from the browser’s perspective. Current proposed mitigations for tracking will impact federated identity. This group will discuss potential user agent features and APIs. 
 
-{TBD: Describe topics that are in scope. For specifications that the CLA
-patent section applies to, it is helpful to describe the scope in a way
-that it is clear what types of technologies will be defined in
-specifications, as opposed to adoption by reference or underlying
-technology not defined in the proposed spec. Key use cases are often
-helpful in describing scope. If no specifications will be defined in the
-group that the CLA patent section applies to, the charter should clearly
-state that. A clear scope is particularly important where patent
-licensing obligations may apply.}
 
 ### Out of Scope
 
-The identity space is much larger than federation. While there are several topics related to identity that may be of interest, they are out of scope for this specific group. If a general Identity Community Group is formed, the Federated Identity Community Group should become a sub-group within that larger effort.
+The identity space is much larger than federated authentication. While there are several topics related to identity that may be of interest, they are out of scope in the short term. If a more broadly scoped identity community group is formed, the Federated Identity Community Group should become a sub-group within that larger effort.
 
 Specific topics out of scope:
 
-* Decentralized identifiers
+* Design around Decentralized Identifiers (DIDs)
 * Ad-tech tools or APIs
+
+This work may also suggest changes to external protocols such as OAuth 2.0, OpenID Connect, and SAML. However, details regarding such changes must be decided upon in the appropriate standards organization and not in this community group. 
 
 Deliverables
 ------------
+All work items from this community group must consider the needs of the user, the developer, and the identity provider; while the user must be at the forefront of consideration, there will be a balance between the needs of the user and the willingness or ability to adopt by developers and identity providers. 
+
+Proposals and work items must have room to innovate and potentially fail; ultimately, the goal is to test out ideas and see where the group has consensus on a recommended course of action, be that action further software development, movement to a standards-track effort, or a recommendation to avoid that path. 
+
 
 ### Proposals 
 
-A Proposal is an idea brought to the Community Group for consideration and potential adoption as a Work Item.
+A proposal is an idea brought to the community group for consideration and potential adoption as a Work Item.
 
-Each Proposal has one or more Champions, beginning with the Community Group Participant who proposed it. Champions are self-organized. Proposals should explicitly list their Champions, and Champions should keep this list updated as the set of Champions for the Proposal changes.
+Each proposal has one or more champions, beginning with the community group participant who proposed it. Champions are self-organized. Proposals should explicitly list their champions, and champions should keep this list updated as the set of champions for the proposal changes.
 
-Any Community Group Participant may make a Proposal by filing an issue in the privacycg/proposals repository on GitHub, stating the problem they would like to address and how they propose to address it.
+Any community group participant may make a proposal by filing an issue in the [TBD]/proposals repository on GitHub, stating the problem they would like to address and how they propose to address it.
 
-The Community Group may discuss the Proposal on GitHub and during teleconferences or face-to-face meetings.
+The community group may discuss the proposal on GitHub and during teleconferences or face-to-face meetings.
 
-Champions are responsible for the technical content of their Proposal. They are expected to solicit input from Community Group Participants, and they may consider and respond to comments, suggestions, and objections on their Proposal from Participants and the public.
+Champions are responsible for the technical content of their proposal. They are expected to solicit input from community group participants, and they may consider and respond to comments, suggestions, and objections on their Proposal from participants and the public.
 
-Champions may ask the Chairs to create a dedicated repository for their Proposal. The Chairs will generally honor such requests, though they may choose not to (if, for example, they believe the Proposal to be out of scope).
+Champions may ask the chairs to create a dedicated repository for their proposal. The chairs will generally honor such requests, though they may choose not to (if, for example, they believe the proposal to be out of scope).
 
 Proposals begin as or evolve into explainers that describe a user-facing problem that needs to be solved and how the authors propose to solve it. Explainers are Community Group Reports as defined in the Community and Business Group Process, but they are not Specifications as defined in that document.
 
-Proposals may be withdrawn by their Champions, or may be closed by the Chairs (if, for example, the Chairs deem the Proposal to be out of scope, or if its number of Champions drops to zero). If such a Proposal has a dedicated repository, the Chairs and Champions should take steps to ensure the data is not lost, perhaps by archiving the repository or by transferring it to a different organization or user. 
+Proposals may be withdrawn by their champions or may be closed by the chairs (if, for example, the chairs deem the proposal to be out of scope or if its number of champions drops to zero). If such a proposal has a dedicated repository, the chairs and champions should take steps to ensure the data is not lost, perhaps by archiving the repository or by transferring it to a different organization or user. 
 
 ### Work Items
-This Community Group may produce Work Items—a special kind of Community Group Report whose purpose is to enable interoperability between independent implementations of the features it defines. Work Items are Specifications as defined in the Community and Business Group Process. Each Work Item has one or more Editors, who are appointed by the Chairs.
+This community group may produce Work Items—a special kind of Community Group Report whose purpose is to enable interoperability between user agents, developers, and identity providers. Work items are specifications as defined in the Community and Business Group Process. Each work item has one or more editors, who are appointed by the chairs.
 
-The current set of Work Items of the Community Group are:
+The current set of work items of the community group are:
 
 | Name |	Editors |	Expected Destinations |
 | ---- | -------- | ----------------------|
 |      |          |                       |
 
 
-This list will be kept updated by the Chairs to reflect the current set of Work Items of the Community Group.
+This list will be kept updated by the chairs to reflect the current set of work items of the community group.
 
-The Community Group may adopt a Proposal as a Work Item if it is the consensus of its Champions and the Chairs that such a Work Item would be likely to enable and lead to independent, interoperable implementations. The Chairs and Champions may solicit commitments from organizations to provide adequate implementation experience of the Proposal's features, and may take such commitments or other such expressions of implementer interest into account when making their decision.
+The community group may adopt a proposal as a work item if it is the consensus of its champions and the chairs that such a work item would be likely to enable and lead to independent, interoperable implementations. The chairs and champions may solicit commitments from organizations to provide adequate implementation experience of the proposal's features and may take such commitments or other such expressions of implementer interest into account when making their decision.
 
-Each Work Item should be accompanied by an explainer describing its proposed changes to the web platform. Editors should keep the Work Item's explainer up-to-date with the Work Item as it evolves.
+Each work item should be accompanied by an explainer describing its proposed changes to the web platform. Editors should keep the Work Item's explainer up-to-date with the Work Item as it evolves.
 
-Because Work Items begin life as Proposals, they typically start out with an explainer already written, and Proposal Champions are typically appointed Editors.
+Because work items begin life as proposals, they typically start out with an explainer already written, and proposal champions are typically appointed editors.
 
-When a Work Item's Editors deem the Work Item ready for migration, they will notify the Chairs. The CG may produce a Final Community Group Report at this time. The Editors and Chairs will identify the best destination standards body or bodies, and will then work with those bodies to successfully migrate the Work Item.
+When a work item's editors deem the work item ready for migration, they will notify the chairs. The community group may produce a final Community Group Report at this time. The editors and chairs will identify the best destination standards body or bodies and will then work with those bodies to successfully migrate the Work Item.
 
-When migrated to the standards track, Work Items might become standalone specifications, they might be integrated into one or more existing specifications, or they might result in a combination of these options.
+When migrated to the standards track, work items might become standalone specifications, they might be integrated into one or more existing specifications, or they might result in a combination of these options.
 
-The Chairs may remove Work Items. The Chairs must notify the group of the removal of Work Items, and this notice must include rationale. Some possible reasons for removing a Work Item are:
+The chairs may remove work items. The =chairs must notify the group of the removal of work items, and this notice must include rationale. Some possible reasons for removing a work item are:
 
-* because the Work Item has been migrated elsewhere
-* because it is no longer the consensus of its Champions and the Chairs that the Work Item is likely to enable and lead to independent, interoperable implementations.
-* because the Work Item no longer has an Editor and a replacement cannot be found 
+* because the work item has been migrated elsewhere
+* because it is no longer the consensus of its champions and the chairs that the work item is likely to enable and lead to independent, interoperable implementations.
+* because the work item no longer has an editor and a replacement cannot be found 
 
-The Chairs should take steps to ensure the repositories of removed Work Items are not lost, perhaps by archiving the repository or by transferring it to a different organization or user. 
+The chairs should take steps to ensure the repositories of removed work items are not lost, perhaps by archiving the repository or by transferring it to a different organization or user. 
 
 Coordination
 ------------------------
 
-This group will collaborate with appropriate groups at W3C, OIDF, IETF, and elsewhere, and will migrate Work Items to them when they’re ready for the standards track. Groups most likely to be close partners are listed below, but this group is expected to coordinate with other groups as relevant.
+This group will collaborate with appropriate groups at the W3C, OpenID Foundation, IETF, and elsewhere, and will suggest work items to them as appropriate. Groups most likely to be close partners are listed below, but this group is expected to coordinate with other groups as relevant.
 
 # W3C Groups 
 
@@ -105,16 +104,25 @@ This group will collaborate with appropriate groups at W3C, OIDF, IETF, and else
     
 * [Web Platform Incubator Community Group (WICG)](https://www.w3.org/community/wicg/)
 
+# IETF Groups
+
+* [OAuth 2.0 Working Group](https://datatracker.ietf.org/wg/oauth/about/)
+
+# OpenID Foundation
+
+* [AB/Connect Working Group](https://openid.net/wg/connect/)
+
+
 
 Community and Business Group Process
 ------------------------------------
 
 The group operates under the [Community and Business Group
 Process](https://www.w3.org/community/about/agreements/). Terms in this
-Charter that conflict with those of the Community and Business Group
+charter that conflict with those of the Community and Business Group
 Process are void.
 
-As with other Community Groups, W3C seeks organizational licensing
+As with other community groups, W3C seeks organizational licensing
 commitments under the [W3C Community Contributor License Agreement
 (CLA)](http://www.w3.org/community/about/agreements/cla/). When people
 request to participate without representing their organization's legal
@@ -141,21 +149,17 @@ Contribution Mechanics
 ----------------------
 
 Substantive Contributions to Specifications can only be made by
-Community Group Participants who have agreed to the [W3C Community
+community group participants who have agreed to the [W3C Community
 Contributor License Agreement
 (CLA)](http://www.w3.org/community/about/agreements/cla/).
 
-Specifications created in the Community Group must use the [W3C Software
+Specifications created in the community group must use the [W3C Software
 and Document
 License](http://www.w3.org/Consortium/Legal/2015/copyright-software-and-document).
 All other documents produced by the group should use that License where
 possible.
 
-{TBD: if CG doesn't use GitHub replace the remaining paragraphs in this
-section with: "All Contributions are made on the groups public mail list
-or public contrib list"}
-
-Community Group participants agree to make all contributions in the
+Community group participants agree to make all contributions in the
 GitHub repo the group is using for the particular document. This may be
 in the form of a pull request (preferred), by raising an issue, or by
 adding a comment to an existing issue.
@@ -174,7 +178,7 @@ uses GitHub, all technical work will occur in its GitHub repositories
 (and not in mailing list discussions). This is to ensure contributions
 can be tracked through a software tool.
 
-Meetings may be restricted to Community Group participants, but a public
+Meetings may be restricted to community group participants, but a public
 summary or minutes must be posted to the group's public mailing list, or
 to a GitHub issue if the group uses GitHub.
 
@@ -182,60 +186,62 @@ Decision Process
 ----------------
 
 This group will seek to make decisions where there is consensus. Groups
-are free to decide how to make decisions (e.g. Participants who have
-earned Committer status for a history of useful contributions assess
-consensus, or the Chair assesses consensus, or where consensus isn't
+are free to decide how to make decisions (e.g., participants who have
+earned committer status for a history of useful contributions assess
+consensus, or the chair assesses consensus, or where consensus isn't
 clear there is a Call for Consensus \[CfC\] to allow multi-day online
 feedback for a proposed course of action). It is expected that
-participants can earn Committer status through a history of valuable
+participants can earn committer status through a history of valuable
 contributions as is common in open source projects. After discussion and
 due consideration of different opinions, a decision should be publicly
 recorded (where GitHub is used as the resolution of an Issue).
 
-If substantial disagreement remains (e.g. the group is divided) and the
-group needs to decide an Issue in order to continue to make progress,
-the Committers will choose an alternative that had substantial support
-(with a vote of Committers if necessary). Individuals who disagree with
+If substantial disagreement remains (e.g., the group is divided) and the
+group needs to decide an issue in order to continue to make progress,
+the committers will choose an alternative that had substantial support
+(with a vote of committers if necessary). Individuals who disagree with
 the choice are strongly encouraged to take ownership of their objection
 by taking ownership of an alternative fork. This is explicitly allowed
 (and preferred to blocking progress) with a goal of letting
 implementation experience inform which spec is ultimately chosen by the
-group to move ahead with.
+group to support.
 
 Any decisions reached at any meeting are tentative and should be
 recorded in a GitHub Issue for groups that use GitHub and otherwise on
 the group's public mail list. Any group participant may object to a
-decision reached at an online or in-person meeting within 7 days of
+decision reached at an online or in-person meeting within seven days of
 publication of the decision provided that they include clear technical
-reasons for their objection. The Chairs will facilitate discussion to
+reasons for their objection. The chairs will facilitate discussion to
 try to resolve the objection according to the [decision
 process](#decision).
 
-It is the Chairs' responsibility to ensure that the decision process is
-fair, respects the consensus of the CG, and does not unreasonably favour
+It is the chairs' responsibility to ensure that the decision process is
+fair, respects the consensus of the community group, and does not unreasonably favor
 or discriminate against any group participant or their employer.
 
 Chair Selection
 ---------------
+This community group will have three chairs.
 
-Participants in this group choose their Chair(s) and can replace their
-Chair(s) at any time using whatever means they prefer. However, if 5
+Participants in this group choose their chair(s) and can replace their
+chair(s) at any time using whatever means they prefer. However, if five
 participants, no two from the same organisation, call for an election,
-the group must use the following process to replace any current Chair(s)
-with a new Chair, consulting the Community Development Lead on election
+the group must use the following process to replace any current chair(s)
+with a new chair, consulting the Community Development Lead on election
 operations (e.g., voting infrastructure and using [RFC
 2777](https://tools.ietf.org/html/rfc2777)).
 
 1.  Participants announce their candidacies. Participants have 14 days
     to announce their candidacies, but this period ends as soon as all
     participants have announced their intentions. If there is only one
-    candidate, that person becomes the Chair. If there are two or more
+    candidate, that person becomes the chair. If there are two or more
     candidates, there is a vote. Otherwise, nothing changes.
 2.  Participants vote. Participants have 21 days to vote for a single
     candidate, but this period ends as soon as all participants have
-    voted. The individual who receives the most votes, no two from the
+    voted. The individuals who receives the most votes, no two representing the
     same organisation, is elected chair. In case of a tie, RFC2777 is
-    used to break the tie. An elected Chair may appoint co-Chairs.
+    used to break the tie. An elected chair will appoint two co-chairs; 
+    no two chairs may represent the same organization.
 
 Participants dissatisfied with the outcome of an election may ask the
 Community Development Lead to intervene. The Community Development Lead,
@@ -248,7 +254,7 @@ The group can decide to work on a proposed amended charter, editing the
 text using the [Decision Process](#decision) described above. The
 decision on whether to adopt the amended charter is made by conducting a
 30-day vote on the proposed new charter. The new charter, if approved,
-takes effect on either the proposed date in the charter itself, or 7
+takes effect on either the proposed date in the charter itself, or seven
 days after the result of the election is announced, whichever is later.
 A new charter must receive 2/3 of the votes cast in the approval vote to
 pass. The group may make simple corrections to the charter such as
