@@ -30,7 +30,7 @@ The identity space is much larger than federated authentication. While there are
 
 Specific topics out of scope:
 
-* Design around Decentralized Identifiers (DIDs)
+* Design around scenarios that, while germane to identity as a whole, are not currently mainstream use, threatened by planned user agent changes, and/or are not aligned with the goals that federated identity scenarios fulfill today (e.g., fully decentralized topologies).
 * Ad-tech tools or APIs
 
 This work may also suggest changes to external protocols such as OAuth 2.0, OpenID Connect, and SAML. However, details regarding such changes must be decided upon in the appropriate standards organization and not in this community group. 
